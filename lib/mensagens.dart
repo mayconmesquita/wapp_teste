@@ -39,7 +39,6 @@ class _MensagensState extends State<Mensagens> {
         .document(idRem)
         .collection(idDest)
         .add(msg.toMap());
-    _salvarMsg(idRem, idDest, msg);
     _ctrlMsg.clear();
   }
 
